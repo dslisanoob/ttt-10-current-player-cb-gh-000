@@ -5,6 +5,5 @@ if a == "" || a == " "
 counter = counter - 1
 end
 end
-puts counter
 return counter
 end
