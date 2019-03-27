@@ -1,4 +1,3 @@
-board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
 def turn_count(board)
 counter = 9
 board.each do |a|
