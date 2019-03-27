@@ -1,5 +1,5 @@
 def turn_count(board)
-counter = 9
+counter = board.length
 board.each do |a|
 if a =="" || a == " "
 counter = counter - 1
