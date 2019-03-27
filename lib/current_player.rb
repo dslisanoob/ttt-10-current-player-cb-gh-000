@@ -1,8 +1,10 @@
 def turn_count(board)
-count = 0
-puts board.each
+counter = board.length
+board.each do |a|
+if a == "" || a == " "
+counter = counter - 1
 end
-
-
-def current_player(board)
+end
+puts counter
+return counter
 end
