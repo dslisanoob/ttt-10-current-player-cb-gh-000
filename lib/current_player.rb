@@ -9,5 +9,5 @@ return counter
 end
 
 def current_player(board)
-
+if
 end
